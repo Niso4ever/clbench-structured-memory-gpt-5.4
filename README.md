@@ -31,8 +31,8 @@ The [Quickstart Guide](https://continual-learning-bench.com/docs/quickstart/) wa
 ## Further Documentation
 
 - [Installation](https://continual-learning-bench.com/docs/installation/) — Full setup notes and prerequisites
-- [Task Gallery](https://continual-learning-bench.com/docs/tasks/) — Browse all available tasks
-- [Leaderboard](https://continual-learning-bench.com/leaderboard/) — See how models compare
+- [Task Gallery](https://continual-learning-bench.com/tasks.html) — Browse all available tasks
+- [Leaderboard](https://continual-learning-bench.com/leaderboard.html) — See how models compare
 - [Viewers](https://continual-learning-bench.com/docs/viewers/) — Viewing and comparing results
 - [Docs](https://continual-learning-bench.com/docs) — Concepts, metrics, contribution guides, and more
 
@@ -46,7 +46,7 @@ Each task spans multiple episodes in a shared environment, so agents that rememb
 - an evaluation script and reward metric measuring improvement over episodes,
 - schedules and variants for repeatable comparisons across systems.
 
-Tasks live in `src/tasks/`. See the [Task Gallery](https://continual-learning-bench.com/docs/tasks/) for an overview that's easy to browse.
+Tasks live in `src/tasks/`. See the [Task Gallery](https://continual-learning-bench.com/tasks.html) for an overview that's easy to browse.
 
 ### Systems
 
@@ -60,8 +60,6 @@ The harness connects systems to task environments, manages multi-episode rollout
 clbench run --help
 clbench run-all --help
 ```
-
-For detailed information on running the harness, see the [harness documentation](https://continual-learning-bench.com/docs/harness/).
 
 ## Contribution
 
